@@ -1,9 +1,9 @@
 <?php
 
-namespace Yavin\Symfony\Form\Type\Tests\Fixtures;
+namespace Phracktale\Symfony\Form\Type\Tests\Fixtures;
 
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
-use Yavin\Symfony\Form\Type\TreeType;
+use Phracktale\Symfony\Form\Type\TreeType;
 
 class TreeTypeTest extends TestBase
 {

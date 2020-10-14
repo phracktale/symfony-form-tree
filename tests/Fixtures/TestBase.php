@@ -1,6 +1,6 @@
 <?php
 
-namespace Yavin\Symfony\Form\Type\Tests\Fixtures;
+namespace Phracktale\Symfony\Form\Type\Tests\Fixtures;
 
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Persistence\ManagerRegistry;
@@ -11,14 +11,14 @@ use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Bridge\Doctrine\Test\DoctrineTestHelper;
 use Symfony\Component\Form\FormFactory;
 use Symfony\Component\Form\Forms;
-use Yavin\Symfony\Form\Type\TreeType;
+use Phracktale\Symfony\Form\Type\TreeType;
 
 class TestBase extends \PHPUnit_Framework_TestCase
 {
-    const POST_CLASS = 'Yavin\Symfony\Form\Type\Tests\Fixtures\Post';
-    const CATEGORY_CLASS = 'Yavin\Symfony\Form\Type\Tests\Fixtures\Category';
-    const SECTION_CLASS = 'Yavin\Symfony\Form\Type\Tests\Fixtures\Section';
-    const TAG_CLASS = 'Yavin\Symfony\Form\Type\Tests\Fixtures\Tag';
+    const POST_CLASS = 'Phracktale\Symfony\Form\Type\Tests\Fixtures\Post';
+    const CATEGORY_CLASS = 'Phracktale\Symfony\Form\Type\Tests\Fixtures\Category';
+    const SECTION_CLASS = 'Phracktale\Symfony\Form\Type\Tests\Fixtures\Section';
+    const TAG_CLASS = 'Phracktale\Symfony\Form\Type\Tests\Fixtures\Tag';
 
     /**
      * @var ManagerRegistry

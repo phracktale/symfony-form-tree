@@ -1,6 +1,6 @@
 <?php
 
-namespace Yavin\Symfony\Form\Type;
+namespace Phracktale\Symfony\Form\Type;
 
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
 use Gedmo\Tree\TreeListener;

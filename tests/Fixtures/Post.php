@@ -1,6 +1,6 @@
 <?php
 
-namespace Yavin\Symfony\Form\Type\Tests\Fixtures;
+namespace Phracktale\Symfony\Form\Type\Tests\Fixtures;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
@@ -102,7 +102,7 @@ class Post
     }
 
     /**
-     * @param \Doctrine\Common\Collections\ArrayCollection|\Yavin\Symfony\Form\Type\Tests\Fixtures\Section[] $sections
+     * @param \Doctrine\Common\Collections\ArrayCollection|\Phracktale\Symfony\Form\Type\Tests\Fixtures\Section[] $sections
      */
     public function setSections($sections)
     {
@@ -110,7 +110,7 @@ class Post
     }
 
     /**
-     * @return \Doctrine\Common\Collections\ArrayCollection|\Yavin\Symfony\Form\Type\Tests\Fixtures\Section[]
+     * @return \Doctrine\Common\Collections\ArrayCollection|\Phracktale\Symfony\Form\Type\Tests\Fixtures\Section[]
      */
     public function getSections()
     {
@@ -118,7 +118,7 @@ class Post
     }
 
     /**
-     * @param \Doctrine\Common\Collections\ArrayCollection|\Yavin\Symfony\Form\Type\Tests\Fixtures\Tag[] $tags
+     * @param \Doctrine\Common\Collections\ArrayCollection|\Phracktale\Symfony\Form\Type\Tests\Fixtures\Tag[] $tags
      */
     public function setTags($tags)
     {
@@ -126,7 +126,7 @@ class Post
     }
 
     /**
-     * @return \Doctrine\Common\Collections\ArrayCollection|\Yavin\Symfony\Form\Type\Tests\Fixtures\Tag[]
+     * @return \Doctrine\Common\Collections\ArrayCollection|\Phracktale\Symfony\Form\Type\Tests\Fixtures\Tag[]
      */
     public function getTags()
     {

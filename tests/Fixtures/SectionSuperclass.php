@@ -1,6 +1,6 @@
 <?php
 
-namespace Yavin\Symfony\Form\Type\Tests\Fixtures;
+namespace Phracktale\Symfony\Form\Type\Tests\Fixtures;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;

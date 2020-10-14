@@ -1,14 +1,14 @@
 <?php
 
-namespace Yavin\Symfony\Form\Type\Tests;
+namespace Phracktale\Symfony\Form\Type\Tests;
 
 use Gedmo\Tree\TreeListener;
 use Symfony\Component\Form\Extension\Core\Type\FormType;
 use Symfony\Component\Form\Guess\Guess;
 use Symfony\Component\Form\Guess\TypeGuess;
-use Yavin\Symfony\Form\Type\Tests\Fixtures\TestBase;
-use Yavin\Symfony\Form\Type\TreeType;
-use Yavin\Symfony\Form\Type\TreeTypeGuesser;
+use Phracktale\Symfony\Form\Type\Tests\Fixtures\TestBase;
+use Phracktale\Symfony\Form\Type\TreeType;
+use Phracktale\Symfony\Form\Type\TreeTypeGuesser;
 
 class TreeTypeGuesserTest extends TestBase
 {
