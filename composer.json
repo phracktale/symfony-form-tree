@@ -10,7 +10,7 @@
         {
             "name": "Phracktale",
             "email": "phracktale@gmail.com"
-        }   
+        }
     ],
     "require": {
         "php": ">=5.5.9",
@@ -19,7 +19,7 @@
         "symfony/property-access": ">=3.0",
         "doctrine/orm": "~2.0",
         "doctrine/common": "~2.3",
-        "gedmo/doctrine-extensions": "~2.4",
+        "gedmo/doctrine-extensions": "~2.4.28",
         "symfony/doctrine-bridge": ">=3.0"
     },
     "require-dev": {
